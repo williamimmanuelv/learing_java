@@ -1,0 +1,24 @@
+class --> java is class oriented
+
+variabels are container to store data.
+
+int container = 67;
+
+to get data from code and display in the terminal we use system.out...
+
+to get the date from terminal and insert it into the code we use scanner class..
+--> it will be inside the java.util.Scanner  --> to use sanneruse have to create object
+--> Scanner object name = new Scanner(system.in) --> this is how we create object
+Scanner->(class name)
+
+in scanner 
+-- string + int + string --> is not working , but
+-- string + string + int --> works fine.
+
+when ever we use string after integer it stores the blank space in the string.
+So we use like this --
+        String Name = input.nextLine();
+        int Score = input.nextInt();
+        scan.nextLine();
+        String department = input.nextLine();
+

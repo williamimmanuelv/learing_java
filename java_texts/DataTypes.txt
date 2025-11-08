@@ -1,0 +1,33 @@
+data types
+
+primitive data type
+
+* byte -128> & <127
+* short -32768 > & < 32768
+* int 4 bytes
+* long 8 bytes
+* float 10.72392f 
+	- only 6 or 7 decimals are allowes, if excedes then it will be rounded.
+	- initially java compilar takes decimal values as double.
+	- If we've to declare float we must tell the computer like this 10.72392f. We must address f or F at the end.
+	- 
+* double   
+	- can take upto 15 decimals
+	- we commanly use double for storing decimals
+
+* char  
+	- Any single character can be stored in char.
+	- String is an object that represents a sequence of characteres. 
+	  Internally, a String consistes of a sequece of char values (characters) arranges in a specific order.
+	- In other words multiple chars arranged in a order is called String.
+	- Example: String greeting= "Hello,world!";
+	  System.out.println(greeting.charAt(7)); --> output - w
+
+* Boolean   
+	- Just like how in a switch only on and of is there, boolean type variable can also take two inputs. one is true, another on is false.
+
+Reference / Data Object Types
+
+* String
+* Array
+* Class Objects
