@@ -1,4 +1,3 @@
-import java.lang.System;
 import java.util.Scanner;
 class DataTypes {
 
@@ -47,14 +46,30 @@ class DataTypes {
         // Get a input from user, for the variabl called RCB. 
         // If RCB wins print ("Ee sala cup Namdhey"), if RCB loose print ("cup illa")
 
-        Scanner scan = new Scanner(System.in);
-        String RCB = scan.nextLine();
+        // Scanner scan = new Scanner(System.in);
+        // String RCB = scan.nextLine();
 
-        if(RCB.equals("win")){
-            System.out.print("Ee sala cup Namdhey");
+        // if(RCB.equals("win")){
+        //     System.out.print("Ee sala cup Namdhey");
+        // }
+        // else if(RCB.equals("loose")){
+        //     System.out.print("cup illa");
+        // }
+
+        //  question 2
+        //  Get a input from user, for the variable called meghana
+        // if meghana is "dead" Print("Surya meets Ramya")
+        // else Print("surya weds meghaana")
+
+        Scanner scan = new Scanner(System.in);
+        String meghana = scan.nextLine();
+
+        if(meghana.equals("dead")){
+            System.out.print("Surya meets Ramya");
         }
-        else if(RCB.equals("loose")){
-            System.out.print("cup illa");
+        else{
+            System.out.print("surya weds meghana");
         }
+        
     }
 }

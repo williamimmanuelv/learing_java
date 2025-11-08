@@ -1,0 +1,10 @@
+In java, logical operators are symbols that connect two or more expressions of boolean type (i.e., true or false) and return a boolen value as a result.
+
+true and true = true -- > &&
+true and false = false --> &&
+false and false = false --> &&
+
+true or true = true --> ||
+true or false = true --> ||
+false or true = true --> ||
+false or false = false --> ||
