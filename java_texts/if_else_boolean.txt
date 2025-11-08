@@ -10,9 +10,25 @@ it throws errors like if we mismatched datatype..
 
 how to compare two strings..
 
-how datas stored 
+  -- how datas stored --
 
 stack --> int a  = 10
 heep --> object 
 heep --> string pool --> string a = 10
+
+        String s1 = new String("apple");
+        String s2 = new String("apple");  
+	--> the above creates new string object with new refrence address.
+	    so when we compare like this s1 == s2 it throws false.
+	    To get the right answer we've to use equals method like this (s1.equals(s2))
+
+        String s3 = "orange"; 
+        String s4 = "orange"; 
+	--> this does creates new string, first it compares the string if there is similar in the string pool.
+	    If there is, then it just use that refrence address so that memory won't be wasted.
+	--> If we really want separate address for each String we've do this String  a = new String("one") this creates new string object.
+	--> this just shares the reference address from equal or same string.
+
+        System.out.println(s1.equals(s2));
+        System.out.print(s3 == s4);
 
