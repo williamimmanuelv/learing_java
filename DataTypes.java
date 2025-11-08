@@ -41,5 +41,20 @@ class DataTypes {
         // String b = new String("one");
         // String c = b;
         // System.out.print(a==c);
+        
+
+        // question 1
+        // Get a input from user, for the variabl called RCB. 
+        // If RCB wins print ("Ee sala cup Namdhey"), if RCB loose print ("cup illa")
+
+        Scanner scan = new Scanner(System.in);
+        String RCB = scan.nextLine();
+
+        if(RCB.equals("win")){
+            System.out.print("Ee sala cup Namdhey");
+        }
+        else if(RCB.equals("loose")){
+            System.out.print("cup illa");
+        }
     }
 }
