@@ -51,7 +51,7 @@ class part_1{
             System.out.print("the number is odd");
         }
         else{
-            System.out.print("the number is even");
+            System.out.print("the number is even"); 
         }
     }
 }
