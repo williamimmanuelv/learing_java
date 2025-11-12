@@ -1,12 +1,11 @@
 import java.util.Scanner;
-
-class part_2 {
+class part_2{
 
     public static void main(String arg[]) {
-        // Q1 What is the score in a game?
-        //  - if the score is less then 50, print "you need to improve."
-        // if the score is betwee 50 and 70 (inclusive), print "Good job"
-        // If the score is greater than 70, print "Excellent performance"
+    // Q1 What is the score in a game?
+    //  - if the score is less then 50, print "you need to improve."
+    // if the score is betwee 50 and 70 (inclusive), print "Good job"
+    // If the score is greater than 70, print "Excellent performance"
 
         // Scanner scan = new Scanner(System.in);
         // int score = scan.nextInt();
@@ -20,9 +19,9 @@ class part_2 {
         //     System.out.print("Excllent performance");
         // }
 
-        // Q2 get input for five subjects marks. Add all of it, and find average.
-        // If average mark is less than 35. Print " Additional class is required"
-        // else print "you are good to go"
+    // Q2 get input for five subjects marks. Add all of it, and find average.
+    // If average mark is less than 35. Print " Additional class is required"
+    // else print "you are good to go"
         
         // Scanner scan = new Scanner(System.in);
 

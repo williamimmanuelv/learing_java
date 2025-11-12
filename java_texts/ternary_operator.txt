@@ -1,0 +1,7 @@
+different between if else and ternary operator is it return value and we can store it like this
+String result = 5>2 ? "yes" : "no";
+System.out.print(result);
+in terminal: yes
+
+
+true ? "yes" : "no"

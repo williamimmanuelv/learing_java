@@ -1,5 +1,6 @@
-import java.lang.System;
+
 import java.util.Scanner;
+
 
 class QA{
     public static void main(String args[])
@@ -36,16 +37,30 @@ class QA{
         // 4 - Get input for 3 variables :Name,Score,department.
         // let the user enter the score for 100 marks,you convert it for 10 and print it.
 
-        Scanner input = new Scanner(System.in);
+        // Scanner input = new Scanner(System.in);
 
-        String Name = input.nextLine();
-        double Score = input.nextInt();
-        input.nextLine();
-        String department = input.nextLine();
+        // String Name = input.nextLine();
+        // double Score = input.nextInt();
+        // input.nextLine();
+        // String department = input.nextLine();
 
-        System.out.println("Name: " + Name);
-        System.out.println("Scrore: " + Score / 10 + "/10");
-        System.out.println("Department: " + department );
+        // System.out.println("Name: " + Name);
+        // System.out.println("Scrore: " + Score / 10 + "/10");
+        // System.out.println("Department: " + department );
+    
+    // Example for ternarry operator
+    // Get input for two integer number and find which number is greater using ternary operator
+
+    Scanner scan = new Scanner(System.in);
+
+    System.out.print("Enter Number 1 : ");
+    int num1 = scan.nextInt();
+    System.out.print("Enter Number 2 : ");
+    int num2 = scan.nextInt();
+
+    String result = num1 > num2 ? "Input Number 1 is greater than Number 2" : "Input Number 2 is greater than Number 1";
+
+    System.out.print(result);
 
     }
 }
