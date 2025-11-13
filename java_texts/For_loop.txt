@@ -1,0 +1,2 @@
+In Java, a nested loop is essentially a loop that runs inside another loop.
+Each time the outer loop runs once, the inner loop runs completely from start to finish.

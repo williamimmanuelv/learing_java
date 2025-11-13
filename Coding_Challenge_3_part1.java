@@ -1,7 +1,7 @@
 // import java.util.Scanner;
 
 
-class part_3{
+class part_3_1{
     public static void main ( String arg[]){
     // Question 1 
     // Get input for variable a and b and print the number from a to b

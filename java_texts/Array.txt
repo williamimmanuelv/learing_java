@@ -1,0 +1,7 @@
+Array is a object
+
+An array is like a row of booces where each box can hold a value, 
+but all boxes must hold the same type of value.
+you can quickly find and change the contents of any box by knowing its position in the row.
+
+default value of array is null
