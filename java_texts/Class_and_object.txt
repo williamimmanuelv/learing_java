@@ -1,0 +1,5 @@
+class 
+  - The class represents the "blueprint" or "template" much like wheat flour
+object
+  - Objects are instances of a class,
+    similar to how cutters create specific shapes from the wheat flour.
