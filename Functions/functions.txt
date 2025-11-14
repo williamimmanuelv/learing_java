@@ -1,0 +1,6 @@
+functions
+923849238
+just like how you call to another phone using 
+phone number you can call other functions using function name
+
+we can't call non static function from static function
