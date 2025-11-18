@@ -1,0 +1,5 @@
+For each loop
+  The enhanced for loop in Java, also known as the "for-each" loop, simplifies iterating over arrays and collections by automatically handling the iteration process without needing explicit index control,
+  offering cleaner syntax and reducing potential errores.
+
+we can use this when we are working with array

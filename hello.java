@@ -1,4 +1,3 @@
-import java.lang.System;
 import java.util.Scanner;
 class hello{
     public static void main(String args[])
@@ -21,16 +20,16 @@ class hello{
 
         // task add two numbers form terminal
 
-        // Scanner a = new Scanner(System.in);
+        Scanner a = new Scanner(System.in);
 
-        // int one = a.nextInt();
-        // int two = a.nextInt();
+        int one = a.nextInt();
+        int two = a.nextInt();
         
-        // int ans = one + two ;
-        // System.out.print(ans);
+        int ans = one + two ;
+        System.out.print(ans);
 
-        // String three = a.nextLine();
-        // System.out.print(three);
+        String three = a.nextLine();
+        System.out.print(three);
 
 
     }
